@@ -1,0 +1,6 @@
+{
+  "sql_init_staging": "/data/sql/init/staging.sql",
+  "sql_init_dds": "/data/sql/init/dds.sql",
+  "sql_load_staging": "/data/sql/staging",
+  "sql_load_dds": "/data/sql/dds"
+}

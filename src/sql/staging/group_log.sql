@@ -1,0 +1,4 @@
+COPY RAGIMATAMOV_YANDEX_RU__STAGING.group_log( group_id,user_id,user_id_from,event,datetime)
+FROM LOCAL STDIN
+DELIMITER ','
+REJECTED DATA AS TABLE RAGIMATAMOV_YANDEX_RU__STAGING.dialog_log_rej;
